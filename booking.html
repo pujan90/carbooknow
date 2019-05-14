@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Booking</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/booking.css">
+        
+
+    
+    </head>
+    <body style="background-image: url(img/bgpic2.jpg)">
+   <body >
+    <div class="header">
+        <h1 style="color: black">Biggest car seller </h1>
+        <img src="img/logo11.png" style=width: 100%>
+         <img src="img/logo.png" style="float:inherit">
+    
+        
+    </div>
+   
+<div class="container">
+    
+    
+    </div>
+    
+  <div class="header">
+
+    <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      <button><a href="login.html">Login / Register Now</a></button>
+  </div>
+        
+        <div class="main">
+           <h1 style="background-color: white">Book Now </h1>
+            <form class="myForm" method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+
+<p>
+<label>Name
+<input type="text" name="customer_name" required>
+</label> 
+</p>
+
+<p>
+<label>Phone 
+<input type="tel" name="phone_number">
+</label>
+</p>
+
+<p>
+<label>Email 
+<input type="email" name="email_address">
+</label>
+</p>
+<p>
+<label>Brands 
+<input type="text" name="Brands_name">
+</label>
+</p>
+                <p>
+<label>Model No.
+<input type="text" name="m_num">
+</label>
+</p>
+<fieldset>
+<legend>Which model you need?</legend>
+<p><label class="choice"> <input type="radio" name="taxi" required value="car"> Car  </label></p>
+<p><label class="choice"> <input type="radio" name="taxi" required value="van"> Van </label></p>
+<p><label class="choice"> <input type="radio" name="taxi" required value="tuktuk"> SUV </label></p>
+</fieldset>
+
+<fieldset>
+<legend>Extras</legend>
+<p><label class="choice"> <input type="checkbox" name="extras" value="baby"> Baby Seat </label></p>
+<p><label class="choice"> <input type="checkbox" name="extras" value="wheelchair"> Wheelchair Access </label></p>
+<p><label class="choice"> <input type="checkbox" name="extras" value="tip"> Ac </label></p>
+    <p><label class="choice"> <input type="checkbox" name="extras" value="music"> Music System </label></p>
+</fieldset>
+
+<p>
+<label>when will you visit our office?
+<input type="datetime-local" name="pickup_time" required>
+</label>
+</p>
+                <br>
+	
+<p>
+<label>Your address
+<select id="pickup_place" name="pickup_place">
+<option value="" selected="selected">Select One</option>
+<option value="office" >Kathmandu</option>
+<option value="town_hall" >Pokhara</option>
+<option value="telepathy" >other...</option>
+</select>
+</label> 
+</p>
+
+<p>
+<label>Payment Method
+<input type="text" name="payment" required list="destinations">
+</label>
+
+<datalist id="destinations">
+<option value="EMI">
+<option value="Hand Cash">
+<option value="Other....">
+</datalist>
+</p>
+
+<p>
+<label>Special Instructions
+<textarea name="comments" maxlength="500"></textarea>
+</label>
+</p>
+
+<p><button>Submit Booking</button></p>
+
+</form>
+        </div>
+       <footer>
+      <h4 style="color: darkblue"> Keep touch With us</h4>
+      <div class="social-media">
+        <img src="img/facebook.png" style="width: 30px">
+        <img src="img/bebo.png" style="width: 30px">
+          <img src="img/gmail-login.png" style="width: 30px">
+          <img src="img/instagram-new.png" style="width: 30px">
+          <img src="img/linkedin.png" style="width: 30px">
+          <img src="img/twitter.png" style="width: 30px">
+          <img src="img/youtube-squared.png" style="width: 30px">
+      </div>
+
+      
+    <h3>Buy and sell car in Nepal</h3>
+    <p>All rights reserved @ pujan bhattarai </p>
+    </footer>
+    
+
+        </body>
+    </body>
+</html>
+
+      
